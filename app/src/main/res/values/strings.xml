@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">IntermediadorAvaliação1</string>
+    <string name="remover_filtro">Remover Filtro</string>
+    <string name="filtrar">Filtrar</string>
+    <string name="nome">Nome</string>
+    <string name="telefone">Telefone</string>
+    <string name="email">Email</string>
+    <string name="valor">Valor</string>
+    <string name="marca">Marca</string>
+    <string name="modelo">Modelo</string>
+    <string name="ano">Ano</string>
+    <string name="tipo">Tipo</string>
+    <string name="caminhao">Caminhão</string>
+    <string name="carro">Carro</string>
+    <string name="moto">Motocicleta</string>
+    <string name="compravenda">Compra/Venda</string>
+    <string name="compra">Compra</string>
+    <string name="venda">Venda</string>
+    <string name="confirmar">Confirmar</string>
+    <string name="txttipodesc">Tipo</string>
+    <string name="txtmarcamodelo">Marca/Modelo</string>
+    <string name="txtvalor">Valor</string>
+</resources>

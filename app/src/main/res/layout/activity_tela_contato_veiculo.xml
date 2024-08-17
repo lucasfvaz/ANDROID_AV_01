@@ -1,0 +1,145 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".TelaContatoVeiculo">
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/nome"
+        android:id="@+id/ed_nome" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/email"
+        android:id="@+id/ed_email" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/telefone"
+        android:inputType="phone"
+        android:id="@+id/ed_telefone" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/valor"
+        android:inputType="numberDecimal"
+        android:id="@+id/ed_valor" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/marca"
+        android:id="@+id/ed_marca" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/modelo"
+        android:id="@+id/ed_modelo" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/ano"
+        android:inputType="number"
+        android:id="@+id/ed_ano" />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="5sp">
+
+        <TextView
+            android:id="@+id/txt_tipodeveiculo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="100"
+            android:text="@string/tipo"
+            android:textSize="15sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="329dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="1sp">
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            >
+
+            <RadioButton
+                android:id="@+id/caminhao"
+                android:layout_width="0sp"
+                android:layout_height="wrap_content"
+                android:layout_weight="42"
+                android:text="@string/caminhao" />
+
+            <RadioButton
+                android:id="@+id/moto"
+                android:layout_width="0sp"
+                android:layout_height="wrap_content"
+                android:layout_weight="30"
+                android:text="@string/moto" />
+
+            <RadioButton
+                android:id="@+id/carro"
+                android:layout_width="0sp"
+                android:layout_height="wrap_content"
+                android:layout_weight="30"
+                android:text="@string/carro" />
+        </RadioGroup>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="5sp">
+
+        <TextView
+            android:id="@+id/txt_tipodeveiculo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="100"
+            android:text="@string/compravenda"
+            android:textSize="15sp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="329dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="1sp">
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            >
+
+            <RadioButton
+                android:id="@+id/compra"
+                android:layout_width="0sp"
+                android:layout_height="wrap_content"
+                android:layout_weight="15"
+                android:text="@string/compra" />
+
+            <RadioButton
+                android:id="@+id/venda"
+                android:layout_width="0sp"
+                android:layout_height="wrap_content"
+                android:layout_weight="15"
+                android:text="@string/venda" />
+
+        </RadioGroup>
+    </LinearLayout>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:padding="3sp"
+        android:text="@string/confirmar"
+        android:onClick="confirmar"/>
+
+</LinearLayout>

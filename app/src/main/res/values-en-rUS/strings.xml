@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">EvaluationMediator1</string>
+    <string name="remover_filtro">Remove Filter</string>
+    <string name="filtrar">Filter</string>
+    <string name="nome">Name</string>
+    <string name="telefone">Phone</string>
+    <string name="email">Email</string>
+    <string name="valor">Value</string>
+    <string name="marca">Brand</string>
+    <string name="modelo">Model</string>
+    <string name="ano">Year</string>
+    <string name="tipo">Type</string>
+    <string name="caminhao">Truck</string>
+    <string name="carro">Car</string>
+    <string name="moto">Motorcycle</string>
+    <string name="compravenda">Buy/Sell</string>
+    <string name="compra">Buy</string>
+    <string name="venda">Sell</string>
+    <string name="confirmar">Confirm</string>
+    <string name="txttipodesc">Type</string>
+    <string name="txtmarcamodelo">Model/Brand</string>
+    <string name="txtvalor">Price</string>
+</resources>
+
+
+
+
+

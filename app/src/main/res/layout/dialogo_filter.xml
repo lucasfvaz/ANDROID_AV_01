@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="5sp">
+
+        <TextView
+            android:id="@+id/txt_tipodeveiculo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="100"
+            android:text="Tipo de veiculo para Filtrar"
+            android:textSize="15sp" />
+    </LinearLayout>
+    <RadioGroup
+        android:id="@+id/rgf_tipo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/rbf_caminhao"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Caminhao" />
+
+        <RadioButton
+            android:id="@+id/rbf_carro"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Carro" />
+        <RadioButton
+            android:id="@+id/rbf_moto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Moto" />
+    </RadioGroup>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="5sp">
+
+        <TextView
+            android:id="@+id/txt_situacao"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="100"
+            android:text="Tipo de situacao"
+            android:textSize="15sp" />
+    </LinearLayout>
+    <RadioGroup
+        android:id="@+id/rg_situacao"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/rbf_compra"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Compra" />
+
+        <RadioButton
+            android:id="@+id/rbf_venda"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Venda" />
+
+    </RadioGroup>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="5sp">
+
+        <TextView
+            android:id="@+id/txt_marca"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="100"
+            android:text="Digite uma marca"
+            android:textSize="15sp" />
+    </LinearLayout>
+    <EditText
+        android:id="@+id/edf_marca"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Marca" />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="5sp">
+
+        <TextView
+            android:id="@+id/txt_ano"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="100"
+            android:text="Digite um itervalo ano"
+            android:textSize="15sp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="329dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="1sp">
+    <EditText
+        android:id="@+id/edf_anominimo"
+        android:layout_width="0sp"
+        android:layout_height="wrap_content"
+        android:hint="Ano minimo"
+        android:layout_weight="15"
+        android:inputType="number"
+        />
+        <EditText
+            android:id="@+id/edf_anomaximo"
+            android:layout_width="0sp"
+            android:layout_height="wrap_content"
+            android:hint="Ano maximo"
+            android:layout_weight="15"
+            android:inputType="number"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="5sp">
+
+        <TextView
+            android:id="@+id/txt_valor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="100"
+            android:text="Digite um itervalo de valor(preco)"
+            android:textSize="15sp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="329dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="1sp">
+        <EditText
+            android:id="@+id/edf_valorminimo"
+            android:layout_width="0sp"
+            android:layout_height="wrap_content"
+            android:hint="Valor minimo"
+            android:layout_weight="15"
+            android:inputType="number"
+            />
+        <EditText
+            android:id="@+id/edf_valormaximo"
+            android:layout_width="0sp"
+            android:layout_height="wrap_content"
+            android:hint="Valor maximo"
+            android:layout_weight="15"
+            android:inputType="numberDecimal"
+            />
+    </LinearLayout>
+</LinearLayout>
